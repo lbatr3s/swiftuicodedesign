@@ -14,6 +14,13 @@
 		288ABD7E2318CCCD00642C6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288ABD7D2318CCCD00642C6D /* Preview Assets.xcassets */; };
 		288ABD812318CCCD00642C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288ABD7F2318CCCD00642C6D /* LaunchScreen.storyboard */; };
 		288ABD8C2318CCCD00642C6D /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288ABD8B2318CCCD00642C6D /* DesignCodeTests.swift */; };
+		28EC0E22234936E600104099 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC0E21234936E600104099 /* Home.swift */; };
+		28EC0E24234AC2E200104099 /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC0E23234AC2E200104099 /* HomeList.swift */; };
+		28EC0E26234AE84A00104099 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC0E25234AE84A00104099 /* BlurView.swift */; };
+		28EC0E28234AEF0B00104099 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC0E27234AEF0B00104099 /* UpdateList.swift */; };
+		28EC0E2A234C2BFC00104099 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC0E29234C2BFC00104099 /* UpdateDetail.swift */; };
+		28EC0E2C234C2EC200104099 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC0E2B234C2EC200104099 /* UpdateStore.swift */; };
+		28EC0E2E234C3A3800104099 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC0E2D234C3A3800104099 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,13 @@
 		288ABD872318CCCD00642C6D /* DesignCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		288ABD8B2318CCCD00642C6D /* DesignCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeTests.swift; sourceTree = "<group>"; };
 		288ABD8D2318CCCD00642C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EC0E21234936E600104099 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		28EC0E23234AC2E200104099 /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		28EC0E25234AE84A00104099 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		28EC0E27234AEF0B00104099 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		28EC0E29234C2BFC00104099 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		28EC0E2B234C2EC200104099 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		28EC0E2D234C3A3800104099 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +95,18 @@
 			children = (
 				288ABD742318CCBB00642C6D /* AppDelegate.swift */,
 				288ABD762318CCBB00642C6D /* SceneDelegate.swift */,
+				28EC0E2D234C3A3800104099 /* TabBar.swift */,
 				288ABD782318CCBB00642C6D /* ContentView.swift */,
 				288ABD7A2318CCCD00642C6D /* Assets.xcassets */,
 				288ABD7F2318CCCD00642C6D /* LaunchScreen.storyboard */,
 				288ABD822318CCCD00642C6D /* Info.plist */,
 				288ABD7C2318CCCD00642C6D /* Preview Content */,
+				28EC0E21234936E600104099 /* Home.swift */,
+				28EC0E23234AC2E200104099 /* HomeList.swift */,
+				28EC0E25234AE84A00104099 /* BlurView.swift */,
+				28EC0E27234AEF0B00104099 /* UpdateList.swift */,
+				28EC0E29234C2BFC00104099 /* UpdateDetail.swift */,
+				28EC0E2B234C2EC200104099 /* UpdateStore.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -209,8 +230,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				288ABD752318CCBB00642C6D /* AppDelegate.swift in Sources */,
+				28EC0E2C234C2EC200104099 /* UpdateStore.swift in Sources */,
+				28EC0E28234AEF0B00104099 /* UpdateList.swift in Sources */,
+				28EC0E24234AC2E200104099 /* HomeList.swift in Sources */,
+				28EC0E2A234C2BFC00104099 /* UpdateDetail.swift in Sources */,
 				288ABD772318CCBB00642C6D /* SceneDelegate.swift in Sources */,
+				28EC0E22234936E600104099 /* Home.swift in Sources */,
 				288ABD792318CCBB00642C6D /* ContentView.swift in Sources */,
+				28EC0E26234AE84A00104099 /* BlurView.swift in Sources */,
+				28EC0E2E234C3A3800104099 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,16 +390,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D63TRMY43;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gt.mnc.DesignCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnc.DesignCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Lester's Dev";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,16 +412,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
+				DEVELOPMENT_TEAM = 8D63TRMY43;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DesignCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = gt.mnc.DesignCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnc.DesignCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Lester's Prod";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -401,7 +435,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DesignCodeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +448,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gt.mnc.DesignCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesignCode.app/DesignCode";
